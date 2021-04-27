@@ -8,6 +8,8 @@ import time
 import random
 from mpl_toolkits.mplot3d import Axes3D
 
+# ottos mops: https://www.lyrikline.org/de/gedichte/ottos-mops-1232
+
 
 # playing and plotting data from a wave file
 
@@ -81,7 +83,7 @@ z3d = [signal[i] for i in range(min3d,max3d)]
 label3d = ["%d" % (signal[i])  for i in range(min3d,max3d)]
 pntSize = 9 # 00
 
-plt.ioff()
+#plt.ioff()
 fig = plt.figure()
 ax = Axes3D(fig)
 ax.scatter(x3d,y3d,z3d, s= pntSize)

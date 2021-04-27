@@ -1,7 +1,7 @@
 import hashlib
 import struct
 
-import pytest
+#import pytest
 
 # the hash generator: sha256
 # reference hash, create via sha256hmac -u  :

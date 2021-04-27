@@ -1,5 +1,5 @@
 import numpy as np
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import imageio
 import sys
@@ -90,6 +90,8 @@ for r in range(W*R):
 
 imageio.imwrite("bead_lin.jpg",I)
 
+print("start animation")
+
 ############## display #########
 f = plt.figure()
 p1 = f.add_subplot(211)
@@ -100,6 +102,7 @@ p1.imshow(I)
 p2 = f.add_subplot(212)
 p2.set_title("Process")
 p2.axis('off')
+
 
 ################################
 # plot animation function

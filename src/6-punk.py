@@ -151,6 +151,7 @@ for a in ax:
 plt.show()
 
 # rotate function
+# t is time in seconds (0.05 @ 20 fps)
 def rot(t):
     global imr
     #imr = np.roll(imr,1,1)
@@ -165,4 +166,3 @@ fps = 20
 animation = VideoClip(rot, duration=im.shape[0]/fps)
 # write the video file
 animation.write_videofile("punk.webm",fps=fps,audio=False)
-

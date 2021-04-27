@@ -10,11 +10,11 @@ quandl.ApiConfig.api_version = '2015-04-09'
 
 # get: database code / dataset code
 #data = quandl.get('LBMA/GOLD', start_date='2018-08-01', end_data='2018-09-01', returns='numpy')
-data = quandl.get('LBMA/GOLD', start_date='2018-01-01', end_data='2018-09-01')
+data = quandl.get('LBMA/GOLD', start_date='2019-01-01', end_data='2019-09-01')
 
 
 
-#print(data)
+#print(dat)a
 gdate = [] 
 gvalue = []
 gx = []
